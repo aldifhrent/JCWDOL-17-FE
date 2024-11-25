@@ -1,0 +1,180 @@
+body {
+  margin: 0 auto;
+  background-color: #101820;
+  font-family: "Maison Neue Demi", sans-serif;
+  overflow-x: hidden;
+}
+
+.navbar {
+  display: flex;
+  position: sticky;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #101820;
+  width: auto;
+  height: 100px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.navbar .navbar-menu {
+  display: flex;
+  color: white;
+  gap: 40px;
+}
+.navbar .navbar-menu p {
+  font-size: 18px;
+  font-weight: bold;
+}
+.navbar ul {
+  display: flex;
+  align-items: center;
+}
+.navbar ul li {
+  list-style-type: none;
+  font-size: 18px;
+}
+.navbar ul li:hover {
+  text-decoration: underline;
+}
+
+.hero {
+  width: 100%;
+  position: relative;
+  min-height: 900px;
+  padding: 60px;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-image: url("https://cdn-site.gojek.com/uploads/hero_b18c33ed07.jpg");
+  background-size: cover;
+}
+.hero .text-hero {
+  width: 100%;
+  padding: 100px;
+  color: white;
+  position: relative;
+  max-width: 597px;
+  font-size: 48px;
+  text-align: left;
+}
+
+.btn-green {
+  color: white;
+  background-color: #00880d;
+  font-weight: bold;
+  border-radius: 96px;
+  border: none;
+  padding-left: 24px;
+  padding-right: 24px;
+  height: 44px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.benefit {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 80px;
+}
+.benefit h1 {
+  font-size: 48px;
+  text-align: center;
+  font-weight: bold;
+}
+.benefit .white-component {
+  display: flex;
+  background-color: white;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  border-top-right-radius: 60px;
+  border-top-left-radius: 60px;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 80px;
+}
+.benefit .white-component .card-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -60px;
+}
+.benefit .white-component .card-flex .card-component {
+  width: 340px;
+  height: 370px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+  text-align: center;
+}
+.benefit .white-component .scale {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 80px;
+  padding-right: 80px;
+  margin-bottom: 80px;
+}
+.benefit .white-component .scale p {
+  font-size: 16px;
+  color: black;
+  font-weight: normal;
+}
+.benefit .white-component .scale h3 {
+  font-size: 36px;
+  color: black;
+  font-weight: bold;
+}
+.benefit .white-component .scale h1 {
+  color: black;
+  font-size: 48px;
+  font-weight: bold;
+}
+.benefit .white-component .scale .scale-component {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 160px;
+  align-items: center;
+}
+.benefit .white-component .scale .scale-card {
+  padding: 40px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 40px;
+  min-width: 350px;
+  max-height: 377px;
+  border-radius: 40px;
+  line-height: 24px;
+}
+.benefit .white-component .scale .scale-card h3 {
+  font-size: 36px;
+}
+.benefit .white-component .scale .scale-card img {
+  margin-top: -140px;
+  min-width: auto;
+  min-height: auto;
+}
+.benefit .white-component .scale .bg-green {
+  background-color: #7ccc6c;
+}
+.benefit .white-component .scale .bg-purple {
+  background-color: #d48bc8;
+}
+.benefit .white-component .scale .bg-orange {
+  background-color: #ffae62;
+}
+.benefit .white-component .scale .bg-cyan {
+  background-color: #4ac9e3;
+}/*# sourceMappingURL=style.css.map */
